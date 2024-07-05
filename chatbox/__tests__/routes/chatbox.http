@@ -1,0 +1,6 @@
+POST http://localhost:3000/chatbox
+Content-Type: application/json
+
+{
+  "text": "Hello, how are you?"
+}
