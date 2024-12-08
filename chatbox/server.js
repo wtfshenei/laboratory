@@ -6,13 +6,13 @@ const http = require("http");
 const app = express();
 const cors = require('cors');
 const chat = require('./sockets/chat.socket');
-const cookieParser = require('cookie-parser'); // Assurez-vous d'utiliser cookie-parser pour parser les cookies
+const cookieParser = require('cookie-parser'); // Cookie-parser pour parser les cookies
 const PORT = 3000;
 
 database.connect();
 
 const corsOptions = {
-    origin: 'http://localhost:3001', // Assurez-vous que c'est le port correct de votre front-end
+    origin: 'http://localhost:3001',
     credentials: true
 };
 
