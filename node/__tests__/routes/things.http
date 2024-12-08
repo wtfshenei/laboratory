@@ -1,0 +1,11 @@
+POST http://localhost:3000/things
+Content-Type: application/json
+
+{
+  "title": "bla",
+  "description": "blablabla"
+}
+
+###
+GET http://localhost:3000/things
+Accept: application/json
